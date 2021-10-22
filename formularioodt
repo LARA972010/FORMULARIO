@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: rgb(127, 229, 255);">
+
+<h2 style="background-color: pink; text-align: center;">FORMULARIO</h2>
+
+<form method="POST" action="http://formadorestic.com/alumnosdaw/procesaformulario.php" style="text-align: center;"action="/action_page.php">
+  <label for="fname" >Name:</label><br>
+  <input type="text" id="fname" name="nombre"><br>
+  <label for="lname" >Email:</label><br>
+  <input type="text" id="lname" name="email"><br><br>
+  <label for="edad">Escribe tu edad</label>
+  <input type="number" name="edad" id=edad><br>
+  <input type="radio" name="mayormenor" value="Mayor de edad" id="edadMayor">
+  <label for="edadMayor">Soy mayor de edad </label>
+   <input type="radio" name="mayormenor" value="Menor de edad" id="edadMenor">
+  <label for="edadMenor">Soy menor de edad </label><br><br>
+  <input type="submit" value="Enviar" style="text-align: center;">
+
+</form> 
+</body>
+</html>
